@@ -1,0 +1,134 @@
+/* SASS For Project AgileLabs */
+/* --------------------
+
+General Layout & Tweaks
+
+---------------------- */
+/* line 9, ../../sass/style.scss */
+.page-wrapper {
+  max-width: 100%;
+  margin: 0;
+  padding: none;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* line 17, ../../sass/style.scss */
+.btn {
+  display: inline-block;
+  padding: 1em 2.52em;
+  margin: 0;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  touch-action: manipulate;
+  cursor: pointer;
+  -webkit-user-select: none;
+  border-radius: 4px;
+  font-family: 'Roboto-Slab';
+  font-size: inherit;
+}
+
+/* line 30, ../../sass/style.scss */
+.btn-contact {
+  background: #F44336;
+  border: 1px solid #F44336;
+  border-bottom: 4px solid #C62828;
+}
+
+/* line 35, ../../sass/style.scss */
+.btn-more {
+  background: #4CAF50;
+  border-bottom: 4px solid #388E3C;
+}
+
+/* --------------------
+
+Reusable Code Snippets
+
+---------------------- */
+/* line 45, ../../sass/style.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 48, ../../sass/style.scss */
+.margin-152 {
+  margin: 1.52em 0;
+}
+
+/* --------------------
+
+Typography & Mixins
+
+---------------------- */
+@font-face {
+  font-family: 'Lobster';
+  src: url("../fonts/Lobster-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto-Slab';
+  src: url("../fonts/RobotoSlab-Light.ttf");
+}
+
+/* line 72, ../../sass/style.scss */
+h1 {
+  font-family: "Lobster";
+}
+
+/* line 75, ../../sass/style.scss */
+h2 {
+  font-family: "Roboto-Slab";
+}
+
+/* line 79, ../../sass/style.scss */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 83, ../../sass/style.scss */
+a :hover {
+  text-decoration: none;
+}
+
+/* --------------------
+
+Faux Home Sections
+
+---------------------- */
+/* line 94, ../../sass/style.scss */
+.header-menu {
+  background: #2196f3;
+  color: #fff;
+  border-bottom: solid 1px #2196f3;
+}
+
+/* line 99, ../../sass/style.scss */
+.logo-wrapper {
+  width: 256px;
+  height: 256px;
+  border: 6px solid #333;
+  background: #F44336;
+  margin: 1.52% auto;
+}
+/* line 106, ../../sass/style.scss */
+.logo-wrapper h1 {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 40%;
+}
+
+/* line 114, ../../sass/style.scss */
+.placeholder {
+  height: 100% !important;
+  min-height: 128px;
+  width: 128px;
+  margin: 0 auto;
+}
+
+/* line 120, ../../sass/style.scss */
+.circle-placeholder {
+  border-radius: 50%;
+  background: #FF6F00;
+  border: 3px solid #333;
+}

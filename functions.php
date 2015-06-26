@@ -114,6 +114,10 @@ add_action( 'widgets_init', 'agile_labs_widgets_init' );
 function agile_labs_scripts() {
 	wp_enqueue_style( 'agile-labs-style', get_stylesheet_uri() );
 
+	wp_enqueue_style( 'agile-labs-screen-style', get_template_directory_uri() . '/inc/css/style.css');
+
+	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/inc/css/bootstrap.css');
+
 	wp_enqueue_script( 'agile-labs-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'agile-labs-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
